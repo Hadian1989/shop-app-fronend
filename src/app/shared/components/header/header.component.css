@@ -1,0 +1,23 @@
+.mat-card-image2 {
+    margin   : 10px 30px 0px 10px;
+    float    : right;
+    max-width: 50px;
+    width    : 100%;
+    height   : auto;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.example-icon {
+    background-color: transparent;
+    margin-right       : 8px;
+    display         : block;
+    border-radius: 0%;
+}
+
+.material-icons {
+    vertical-align     : middle;
+}
