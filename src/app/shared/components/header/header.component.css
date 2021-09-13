@@ -13,11 +13,38 @@ ul li {
 
 .example-icon {
     background-color: transparent;
-    margin-right       : 8px;
+    margin-right    : 8px;
     display         : block;
-    border-radius: 0%;
+    border-radius   : 0%;
 }
 
 .material-icons {
-    vertical-align     : middle;
+    vertical-align: middle;
+}
+
+.icon-style {
+    margin-right: 15px;
+    font-size   : 25px;
+}
+
+p-avatar {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration-line: none;
+    color               : black;
+}
+
+a:hover {
+    background-color: rgb(248, 248, 242);
+    border          : 1px solid rgb(233, 224, 224);
+}
+
+:host ::ng-deep .p-toolbar {
+    padding: 0%;
+}
+
+:host ::ng-deep .p-card {
+    box-shadow: unset;
 }
