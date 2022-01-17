@@ -37,6 +37,7 @@ import {MatCardModule} from '@angular/material/card';
     FlexLayoutModule,
     MatCardModule,
   ],
-  exports: [MatCardModule]
+  exports: [
+    MatCardModule]
 })
 export class DefaultModule { }
