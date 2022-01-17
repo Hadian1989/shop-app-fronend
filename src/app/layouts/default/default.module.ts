@@ -13,6 +13,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 @NgModule({
@@ -33,6 +35,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatIconModule,
     MatButtonModule,
     FlexLayoutModule,
-  ]
+    MatCardModule,
+  ],
+  exports: [MatCardModule]
 })
 export class DefaultModule { }
