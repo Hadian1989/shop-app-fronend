@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
+  a: number = 6
+  a1: number = 6
   constructor() { }
 
   ngOnInit(): void {
